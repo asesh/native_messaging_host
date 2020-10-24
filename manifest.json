@@ -1,0 +1,17 @@
+{
+ "name": "com.asesh.monitor",
+ "description": "Monitor",
+ "permissions": [
+  "nativeMessaging",
+  "background",
+  "alarms",
+  "http://*/",
+  "https://*/"
+ ],
+ "background": {
+  "page": "index.html"
+ },
+ "version": "1.0.0.0",
+ "minimum_chrome_version": "50",
+ "manifest_version": 2
+}
